@@ -55,6 +55,6 @@ pub:{
     };
 
 .qsp.onStart {
-    // Send a message every 10000 ms
+    // Send a message every 100 ms
     .tm.add[`pub; (`pub; ()); 100; 0]
     };
