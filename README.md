@@ -23,8 +23,6 @@ docker compose down
 
 ![alt text](image.png)
 
-![alt text](image-1.png)
-
 You can also check the status of the containers running the configured KXI services using docker ps
 
 ![alt text](image-2.png)
@@ -68,3 +66,7 @@ time                          spTime                        sym  high     low   
 2026.02.17D14:09:02.268356578 2026.02.17D14:09:02.268375056 AAPL 198.9288 196.4477 198.7511 196.6396 58900 
 q)
 ```
+
+# Streamlined development
+
+With this microservices architecture, it becomes simple for a team of developers to work on/make changes to this application due to the nature of the containerized development approach of docker/kubernetes.  Additionally, setting up a kdb database from scratch is streamlined as most of the heavy lifting in terms of db architecture and marshalling of data is mostly through a configuration approach rather than writing from scratch as done in many kdb commercial environments.
