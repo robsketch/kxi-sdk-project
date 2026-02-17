@@ -31,6 +31,8 @@ You can also check the status of the containers running the configured KXI servi
 
 In this app, I utilize a stream processor architecture to capture dummy trade data for Apple (AAPL) and store this data to a KXI database.  Additionally, the pipeline splits and generates OHCL interval analytics with 10 second periods. The spec for this stream processor can be found in the config/src/trade_spec.q script.
 
+# Query
+
 Upon starting this application, you can query the data which has been fed through RT to the database with the following queries:
 
 ```
